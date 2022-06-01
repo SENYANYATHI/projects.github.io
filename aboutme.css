@@ -1,0 +1,45 @@
+body{
+    background-color:lavender;
+    border-radius: 6px;
+    border: 2px salmon #ddd;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+html{
+    box-sizing: border-box;
+}
+about-section{
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+.nav.ul.li a{
+    align-items: center;
+    border: 2px  #ddd;
+    justify-content: space-between;
+  
+}
+.nav.ul.li a :hover{
+    position: absolute;
+    cursor: pointer;
+    color: aliceblue;
+}
+li{
+    float: right;
+    display: block;
+   padding: 8px 16px;
+    color :darkblue;
+}
+.ul{
+    overflow:hidden ;
+    color: aqua;
+    padding: 0%;
+    background-color: aliceblue;
+}
+aside{
+    float: left;
+    background-image: -moz-linear-gradient(url);
+    border: 5px;
+    border-radius: 5px;
+}
